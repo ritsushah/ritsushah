@@ -1,23 +1,17 @@
 <div align="center">
 
-  <!-- Replace 'banner.jpg' with the path to the uploaded banner image in your ritsushah/ritsushah repo -->
-  <img src="./banner.jpg" alt="Ritu Shah - Medical Microbiologist & Bioinformatician Banner" width="100%" />
+  <img src="./banner.svg" alt="Ritu Shah - Medical Microbiologist & Bioinformatician" width="100%" />
 
-  <br />
+  <br /><br />
 
-  # 🧬 Ritu Shah (M.Sc. Medical Microbiology)
-  **Medical Microbiologist & Bioinformatician | Bridging Clinical Diagnostics with Multi-Omics & Machine Learning**
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ritu_Shah-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
-  [![GitHub](https://img.shields.io/badge/GitHub-ritsushah-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ritsushah)
-  [![NHPC Registered](https://img.shields.io/badge/NHPC_Registered-Med._Micro_(#164)-008080?style=for-the-badge&logo=medibangpaint&logoColor=white)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
-  [![Affiliation](https://img.shields.io/badge/MGM_Medical_College-Vashi,_Navi_Mumbai-4B0082?style=for-the-badge)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ritu_Shah-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
+  [![GitHub](https://img.shields.io/badge/GitHub-ritsushah-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ritsushah)
+  [![NHPC Registered](https://img.shields.io/badge/NHPC_Registered-Med._Micro_(%23164)-0D9488?style=flat-square)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
+  [![Affiliation](https://img.shields.io/badge/MGM_Medical_College-Navi_Mumbai-4F46E5?style=flat-square)](https://www.linkedin.com/in/ritu-shah-8ba78a216/)
 
 </div>
 
----
-
-### 👩‍⚕️ About Me
+<br />
 
 I am a **Medical Microbiologist (M.Sc.)** and **Bioinformatician** currently serving as a **Tutor in the Department of Microbiology at MGM Medical College, Vashi, Navi Mumbai**. I design end-to-end computational pipelines and leakage-free machine learning workflows for multi-omics, host-microbiome interactions, and infectious disease genomics.
 
@@ -67,26 +61,22 @@ My work bridges wet-lab clinical intuition with dry-lab automation—ranging fro
 
 ### 🚀 Featured Bioinformatics & ML Pipelines
 
-- 🦠 **[`phominis-multiomics-pipeline`](https://github.com/ritsushah/phominis-multiomics-pipeline)**  
-  *Opportunistic Pathogen Surveillance* — End-to-end multi-omics pipeline for detecting and characterizing *Pentatrichomonas hominis* as a potential opportunistic pathogen in immunocompromised gut microbiomes, featuring custom genome/marker databases and automated profiling workflows.
-
-- 🧬 **[`protozoa-bacterial-ibd-dysbiosis`](https://github.com/ritsushah/protozoa-bacterial-ibd-dysbiosis)**  
-  *Quantitative Metagenomics & Nextflow DSL2* — Reproducible metagenomic workflow modeling intestinal protozoa–bacterial interactions in Inflammatory Bowel Disease (IBD) dysbiosis using Compositional Data Analysis (CoDa) and leakage-free machine learning.
-
-- 💊 **[`amr-kmer-pipeline`](https://github.com/ritsushah/amr-kmer-pipeline)**  
-  *Computational Antimicrobial Resistance* — Proof-of-concept (POC) machine learning pipeline for predicting Antimicrobial Resistance (AMR) phenotypes directly from bacterial whole-genome $k$-mer representations using Python, PyTorch, and Docker.
-
-- 🩸 **[`Gfi1_AML_Signaling_Mapping`](https://github.com/ritsushah/Gfi1_AML_Signaling_Mapping)**  
-  *Cancer Transcriptomics & Single-Cell Omics* — Computational pipeline mapping *Gfi1*-regulated intercellular signaling and bone marrow niche remodeling in Acute Myeloid Leukemia (AML) by integrating bulk TCGA cohorts with scRNA-seq (`GSE116256`) datasets.
-
-- 🕸️ **[`HippoActInteract`](https://github.com/ritsushah/HippoActInteract)**  
-  *Deep Learning in Structural & Systems Biology* — Graph Neural Network (GNN) architecture designed to predict and categorize physical protein-protein interactions between Hippo signaling and actin cytoskeleton pathway proteins.
+* 🦠 **[`phominis-multiomics-pipeline`](https://github.com/ritsushah/phominis-multiomics-pipeline)** — *Opportunistic Pathogen Surveillance*  
+  End-to-end multi-omics pipeline for detecting and characterizing *Pentatrichomonas hominis* as a potential opportunistic pathogen in immunocompromised gut microbiomes, featuring custom genome/marker databases and automated profiling workflows.
+* 🧬 **[`protozoa-bacterial-ibd-dysbiosis`](https://github.com/ritsushah/protozoa-bacterial-ibd-dysbiosis)** — *Quantitative Metagenomics & Nextflow DSL2*  
+  Reproducible metagenomic workflow modeling intestinal protozoa–bacterial interactions in Inflammatory Bowel Disease (IBD) dysbiosis using Compositional Data Analysis (CoDa) and leakage-free machine learning.
+* 💊 **[`amr-kmer-pipeline`](https://github.com/ritsushah/amr-kmer-pipeline)** — *Computational Antimicrobial Resistance*  
+  Proof-of-concept (POC) machine learning pipeline for predicting Antimicrobial Resistance (AMR) phenotypes directly from bacterial whole-genome $k$-mer representations using Python, PyTorch, and Docker.
+* 🩸 **[`Gfi1_AML_Signaling_Mapping`](https://github.com/ritsushah/Gfi1_AML_Signaling_Mapping)** — *Cancer Transcriptomics & Single-Cell Omics*  
+  Computational pipeline mapping *Gfi1*-regulated intercellular signaling and bone marrow niche remodeling in Acute Myeloid Leukemia (AML) by integrating bulk TCGA cohorts with scRNA-seq (`GSE116256`) datasets.
+* 🕸️ **[`HippoActInteract`](https://github.com/ritsushah/HippoActInteract)** — *Deep Learning in Structural & Systems Biology*  
+  Graph Neural Network (GNN) architecture designed to predict and categorize physical protein-protein interactions between Hippo signaling and actin cytoskeleton pathway proteins.
 
 ---
 
 ### 🏥 Clinical Experience, Education & Credentials
 
-#### **Professional Experience**
+**Professional Experience**
 * **Tutor — Department of Microbiology** | *MGM Medical College & Institute of Health Sciences, Navi Mumbai* (`Aug 2023 – Present`)  
   Leading MBBS practicals, small group teachings (SGT), paramedical lectures, and diagnostic laboratory workflows across Bacteriology, Parasitology, Mycology, and Serology.
 * **Junior Microbiologist** | *HLL Lifecare Limited (HindLab), Navi Mumbai* (`Oct 2022 – Aug 2023`)  
@@ -94,12 +84,12 @@ My work bridges wet-lab clinical intuition with dry-lab automation—ranging fro
 * **Medical Microbiologist (M.Sc. Resident)** | *MGM Institute of Health Sciences, Navi Mumbai* (`Aug 2019 – Jul 2021`)  
   Completed comprehensive diagnostic rotations across Phlebotomy, Media Preparation, Bacteriology, Parasitology, Mycology, Serology, TB, and Molecular Diagnostics.
 
-#### **Education & Published Research**
+**Education & Published Research**
 * **M.Sc. in Medical Microbiology** (*First Division*) — *MGM Institute of Health Sciences, Navi Mumbai* (`2018 – 2021`)  
   *Published Thesis:* *"Detection of Vancomycin Resistant Enterococci in patients suffering from UTI in a tertiary care hospital."*
 * **B.Sc. in Microbiology** (*First Division*) — *Tribhuvan University* (`2013 – 2017`)
 
-#### **Licenses & Certifications**
+**Licenses & Certifications**
 * **Registered Medical Microbiologist** — *Nepal Health Professional Council (NHPC)* | Credential ID: `164 Med.Micro`
 * **Basic Course in Biomedical Research (BCBR)** — *MGM Institute of Health Sciences* (`DEC24BCBRS1051810245`)
 * **Good Clinical Practice (GCP) Workshop** — *MGM Institute of Health Sciences* (`Issued Mar 2025`)
@@ -109,14 +99,13 @@ My work bridges wet-lab clinical intuition with dry-lab automation—ranging fro
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ritsushah&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" height="165" alt="Ritu's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ritsushah&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF" height="165" alt="Ritu's Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ritsushah&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=10B981" height="155" alt="Ritu's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ritsushah&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" height="155" alt="Ritu's Top Languages" />
 </div>
 
 ---
 
 <div align="center">
-  <b>📫 Let's Connect & Collaborate on Multi-Omics, AMR, and Biomedical AI</b><br><br>
-  <a href="https://www.linkedin.com/in/ritu-shah-8ba78a216/">LinkedIn Profile</a> •
-  <a href="https://github.com/ritsushah">GitHub Repositories</a>
+  <sub><b>📫 Let's Connect & Collaborate on Multi-Omics, AMR, and Biomedical AI</b></sub><br />
+  <sub><a href="https://www.linkedin.com/in/ritu-shah-8ba78a216/">LinkedIn Profile</a> • <a href="https://github.com/ritsushah">GitHub Repositories</a></sub>
 </div>
