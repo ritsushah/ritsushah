@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 165" width="100%" height="100%">
   <defs>
     <!-- Deep Slate/Navy Background Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -36,14 +36,14 @@
   <style>
     .name {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 27px;
+      font-size: 26px;
       font-weight: 700;
       fill: #F8FAFC;
       letter-spacing: 0.4px;
     }
     .degree {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 500;
       fill: #94A3B8;
     }
@@ -54,18 +54,25 @@
       fill: #38BDF8;
       letter-spacing: 0.3px;
     }
+    .domains {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11.5px;
+      font-weight: 500;
+      fill: #CBD5E1;
+      letter-spacing: 0.2px;
+    }
     .sub {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 11px;
+      font-size: 10.5px;
       fill: #64748B;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.25px;
     }
     .badge-text {
       font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-      font-size: 10px;
+      font-size: 9.5px;
       font-weight: 600;
       fill: #10B981;
-      letter-spacing: 0.8px;
+      letter-spacing: 0.7px;
     }
     .node {
       animation: pulse 3.5s ease-in-out infinite;
@@ -90,44 +97,49 @@
   </style>
 
   <!-- Main Rounded Banner Background -->
-  <rect width="900" height="160" rx="10" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5" />
-  <rect width="900" height="160" rx="10" fill="url(#grid)" />
+  <rect width="900" height="165" rx="10" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="900" height="165" rx="10" fill="url(#grid)" />
 
   <!-- Left Accent Bar -->
-  <rect x="0" y="28" width="4" height="104" rx="2" fill="url(#accent)" />
+  <rect x="0" y="26" width="4" height="113" rx="2" fill="url(#accent)" />
 
   <!-- Animated Background Multi-Omics Signal Waves -->
   <g class="wave-1">
-    <path d="M 380 135 Q 510 80 640 125 T 920 95" fill="none" stroke="url(#waveGrad)" stroke-width="2" />
+    <path d="M 380 140 Q 510 85 640 130 T 920 100" fill="none" stroke="url(#waveGrad)" stroke-width="2" />
   </g>
   <g class="wave-2">
-    <path d="M 420 145 Q 560 100 700 135 T 920 115" fill="none" stroke="url(#waveGrad)" stroke-width="1.5" stroke-dasharray="4 4" />
+    <path d="M 420 150 Q 560 105 700 140 T 920 120" fill="none" stroke="url(#waveGrad)" stroke-width="1.5" stroke-dasharray="4 4" />
   </g>
 
   <!-- Status Pill -->
-  <rect x="32" y="22" width="248" height="20" rx="10" fill="#064E3B" fill-opacity="0.35" stroke="#059669" stroke-width="0.8" />
-  <circle cx="44" cy="32" r="3.5" fill="#10B981">
+  <rect x="32" y="20" width="365" height="20" rx="10" fill="#064E3B" fill-opacity="0.35" stroke="#059669" stroke-width="0.8" />
+  <circle cx="44" cy="30" r="3.5" fill="#10B981">
     <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite" />
   </circle>
-  <text x="55" y="35.5" class="badge-text">CLINICAL MICROBIOLOGY × BIOINFORMATICS</text>
+  <text x="55" y="33.5" class="badge-text">MEDICAL MICROBIOLOGY • MULTI-OMICS • CLINICAL RESEARCH</text>
 
-  <!-- Name & Credential (Clean, proportional sizing) -->
-  <text x="32" y="74" class="name">
-    Ritu Shah <tspan class="degree" dx="6">M.Sc. Medical Microbiology</tspan>
+  <!-- Name & Credential -->
+  <text x="32" y="68" class="name">
+    Ritu Shah <tspan class="degree" dx="6">M.Sc. Medical Microbiology | NHPC #164</tspan>
   </text>
 
   <!-- Role Subtitle -->
-  <text x="32" y="100" class="role">
-    Medical Microbiologist &amp; Bioinformatician
+  <text x="32" y="92" class="role">
+    Medical Microbiologist, Bioinformatician &amp; Published Clinical Researcher
   </text>
 
-  <!-- Technical Keywords -->
-  <text x="32" y="124" class="sub">
-    Multi-Omics Pipelines  •  AMR k-mer ML  •  Host-Microbiome CoDa  •  scRNA-Seq &amp; GNNs
+  <!-- Scholar / Research Domains -->
+  <text x="32" y="114" class="domains">
+    Infectious Disease  •  Immunology &amp; Cell Biology  •  Host–Microbiome Interactions  •  AMR Surveillance
+  </text>
+
+  <!-- Technical & Academic Keywords -->
+  <text x="32" y="137" class="sub">
+    Nextflow DSL2 &amp; PyTorch  •  CoDa &amp; scRNA-Seq  •  GNNs  •  ORCID: 0009-0000-1680-5653
   </text>
 
   <!-- Right-Side Animated Graphic: GNN Network + DNA/K-mer Read Bars -->
-  <g transform="translate(560, 12)">
+  <g transform="translate(565, 14)">
     <!-- Connecting Edges (GNN / Interactome) -->
     <g stroke="#1E293B" stroke-width="1.2">
       <line x1="45" y1="35" x2="95" y2="22" />
@@ -169,7 +181,7 @@
     <circle cx="235" cy="65" r="5" fill="#10B981" class="node" filter="url(#glow)" />
 
     <!-- Animated k-mer / Sequencing Spectrum Bars (Far Right) -->
-    <g transform="translate(268, 25)" opacity="0.85">
+    <g transform="translate(264, 25)" opacity="0.85">
       <rect x="0" y="20" width="4" height="45" rx="2" fill="#00F2FE">
         <animate attributeName="height" values="25;55;25" dur="2.4s" repeatCount="indefinite" />
         <animate attributeName="y" values="30;15;30" dur="2.4s" repeatCount="indefinite" />
