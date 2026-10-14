@@ -117,12 +117,6 @@ My work spans **first-author peer-reviewed clinical research on Antimicrobial Re
 
 ---
 
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ritsushah&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=10B981" height="155" alt="Ritu's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ritsushah&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" height="155" alt="Ritu's Top Languages" />
-</div>
 
 ---
 
