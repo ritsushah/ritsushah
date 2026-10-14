@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="100%" height="100%">
+  <defs>
+    <!-- Deep Slate/Navy Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="55%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B1F2A" />
+    </linearGradient>
+
+    <!-- Cyan/Teal Accent Gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <!-- Subtle Wave Gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.0" />
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Subtle Tech Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#334155" opacity="0.45" />
+    </pattern>
+
+    <!-- Soft Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .name {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 27px;
+      font-weight: 700;
+      fill: #F8FAFC;
+      letter-spacing: 0.4px;
+    }
+    .degree {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      fill: #94A3B8;
+    }
+    .role {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      fill: #38BDF8;
+      letter-spacing: 0.3px;
+    }
+    .sub {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11px;
+      fill: #64748B;
+      letter-spacing: 0.3px;
+    }
+    .badge-text {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #10B981;
+      letter-spacing: 0.8px;
+    }
+    .node {
+      animation: pulse 3.5s ease-in-out infinite;
+    }
+    .node-delay-1 { animation-delay: 0.8s; }
+    .node-delay-2 { animation-delay: 1.6s; }
+    .node-delay-3 { animation-delay: 2.4s; }
+    .wave-1 {
+      animation: drift 10s ease-in-out infinite alternate;
+    }
+    .wave-2 {
+      animation: drift 14s ease-in-out infinite alternate-reverse;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 1; }
+    }
+    @keyframes drift {
+      0% { transform: translateX(-18px); }
+      100% { transform: translateX(18px); }
+    }
+  </style>
+
+  <!-- Main Rounded Banner Background -->
+  <rect width="900" height="160" rx="10" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="900" height="160" rx="10" fill="url(#grid)" />
+
+  <!-- Left Accent Bar -->
+  <rect x="0" y="28" width="4" height="104" rx="2" fill="url(#accent)" />
+
+  <!-- Animated Background Multi-Omics Signal Waves -->
+  <g class="wave-1">
+    <path d="M 380 135 Q 510 80 640 125 T 920 95" fill="none" stroke="url(#waveGrad)" stroke-width="2" />
+  </g>
+  <g class="wave-2">
+    <path d="M 420 145 Q 560 100 700 135 T 920 115" fill="none" stroke="url(#waveGrad)" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Status Pill -->
+  <rect x="32" y="22" width="248" height="20" rx="10" fill="#064E3B" fill-opacity="0.35" stroke="#059669" stroke-width="0.8" />
+  <circle cx="44" cy="32" r="3.5" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="55" y="35.5" class="badge-text">CLINICAL MICROBIOLOGY × BIOINFORMATICS</text>
+
+  <!-- Name & Credential (Clean, proportional sizing) -->
+  <text x="32" y="74" class="name">
+    Ritu Shah <tspan class="degree" dx="6">M.Sc. Medical Microbiology</tspan>
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="32" y="100" class="role">
+    Medical Microbiologist &amp; Bioinformatician
+  </text>
+
+  <!-- Technical Keywords -->
+  <text x="32" y="124" class="sub">
+    Multi-Omics Pipelines  •  AMR k-mer ML  •  Host-Microbiome CoDa  •  scRNA-Seq &amp; GNNs
+  </text>
+
+  <!-- Right-Side Animated Graphic: GNN Network + DNA/K-mer Read Bars -->
+  <g transform="translate(560, 12)">
+    <!-- Connecting Edges (GNN / Interactome) -->
+    <g stroke="#1E293B" stroke-width="1.2">
+      <line x1="45" y1="35" x2="95" y2="22" />
+      <line x1="95" y1="22" x2="140" y2="55" />
+      <line x1="45" y1="35" x2="80" y2="75" />
+      <line x1="80" y1="75" x2="140" y2="55" />
+      <line x1="80" y1="75" x2="125" y2="110" />
+      <line x1="140" y1="55" x2="190" y2="32" />
+      <line x1="140" y1="55" x2="185" y2="92" />
+      <line x1="125" y1="110" x2="185" y2="92" />
+      <line x1="190" y1="32" x2="235" y2="65" />
+      <line x1="185" y1="92" x2="235" y2="65" />
+    </g>
+
+    <!-- Animated Data-Flow Edge Highlights -->
+    <g stroke="url(#accent)" stroke-width="1.2" opacity="0.55">
+      <line x1="45" y1="35" x2="80" y2="75" stroke-dasharray="3 3">
+        <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite" />
+      </line>
+      <line x1="80" y1="75" x2="140" y2="55" stroke-dasharray="3 3">
+        <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite" />
+      </line>
+      <line x1="140" y1="55" x2="185" y2="92" stroke-dasharray="3 3">
+        <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite" />
+      </line>
+      <line x1="185" y1="92" x2="235" y2="65" stroke-dasharray="3 3">
+        <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- Pulsing GNN / Multi-Omics Nodes -->
+    <circle cx="45" cy="35" r="4" fill="#38BDF8" class="node" filter="url(#glow)" />
+    <circle cx="95" cy="22" r="3.5" fill="#10B981" class="node node-delay-1" />
+    <circle cx="80" cy="75" r="5" fill="#00F2FE" class="node node-delay-2" filter="url(#glow)" />
+    <circle cx="140" cy="55" r="5.5" fill="#10B981" class="node node-delay-3" filter="url(#glow)" />
+    <circle cx="125" cy="110" r="3.5" fill="#38BDF8" class="node node-delay-1" />
+    <circle cx="190" cy="32" r="4" fill="#00F2FE" class="node node-delay-2" />
+    <circle cx="185" cy="92" r="4.5" fill="#38BDF8" class="node node-delay-3" filter="url(#glow)" />
+    <circle cx="235" cy="65" r="5" fill="#10B981" class="node" filter="url(#glow)" />
+
+    <!-- Animated k-mer / Sequencing Spectrum Bars (Far Right) -->
+    <g transform="translate(268, 25)" opacity="0.85">
+      <rect x="0" y="20" width="4" height="45" rx="2" fill="#00F2FE">
+        <animate attributeName="height" values="25;55;25" dur="2.4s" repeatCount="indefinite" />
+        <animate attributeName="y" values="30;15;30" dur="2.4s" repeatCount="indefinite" />
+      </rect>
+      <rect x="10" y="10" width="4" height="65" rx="2" fill="#10B981">
+        <animate attributeName="height" values="65;30;65" dur="2.1s" repeatCount="indefinite" />
+        <animate attributeName="y" values="10;27;10" dur="2.1s" repeatCount="indefinite" />
+      </rect>
+      <rect x="20" y="25" width="4" height="35" rx="2" fill="#38BDF8">
+        <animate attributeName="height" values="30;60;30" dur="2.7s" repeatCount="indefinite" />
+        <animate attributeName="y" values="27;12;27" dur="2.7s" repeatCount="indefinite" />
+      </rect>
+      <rect x="30" y="15" width="4" height="50" rx="2" fill="#0EA5E9">
+        <animate attributeName="height" values="50;20;50" dur="1.9s" repeatCount="indefinite" />
+        <animate attributeName="y" values="17;32;17" dur="1.9s" repeatCount="indefinite" />
+      </rect>
+      <rect x="40" y="28" width="4" height="30" rx="2" fill="#10B981">
+        <animate attributeName="height" values="22;48;22" dur="2.5s" repeatCount="indefinite" />
+        <animate attributeName="y" values="31;18;31" dur="2.5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
